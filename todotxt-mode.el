@@ -84,9 +84,9 @@
 (setq todotxt-mode-keywords
   '(
 	("^x .*$" 0 '(:foreground "gray80" :strike-through t))
-	("^(A).*$" 0 '(:background "red"))
-	("^(B).*$" 0 '(:background "orange"))
-	("^(C).*$" 0 '(:background "orange"))
+	("^(A)" 0 '(:background "red"))
+	("^(B)" 0 '(:background "orange"))
+	("^(C)" 0 '(:background "yellow"))
 	;("^.*#waiting.*" 0 '(:foreground "DeepPink1")) ; special tag
 	;("^.*#important.*" 0 '(:foreground "IndianRed")) ; special tag
 	("([A-Z]+)" . font-lock-builtin-face)
